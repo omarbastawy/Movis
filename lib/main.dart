@@ -9,10 +9,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Moves ',
       theme: ThemeData(
-        p
-        backgroundColor: Colors.black,
+
+        primaryColor: Color.fromARGB(255, 112, 112, 112)
       ),
       routes: {Home_screen.routename:(buildContext)=> Home_screen(),
 
