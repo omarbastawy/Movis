@@ -16,6 +16,7 @@ class _Home_screenState extends State<Home_screen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
 backgroundColor: Color.fromARGB(255, 26, 26, 26),
       bottomNavigationBar:  Theme(
         data: Theme.of(context)
@@ -27,6 +28,7 @@ backgroundColor: Color.fromARGB(255, 26, 26, 26),
        setState(() {});
      },
         items: [
+
           BottomNavigationBarItem(label: 'Home',icon: Icon(Icons.home, ),
           ),
           BottomNavigationBarItem(label: 'search',icon: Icon(Icons.search  ), ),
